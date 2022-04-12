@@ -1,33 +1,32 @@
-.zoom-out {cursor: zoom-out;}
 
+{box-sizing: border-box;}
 
 /* Style the tab */
-.tab {
-  float: right;
+   .tab {
+  float: left;
   border: 0px solid ##ffffff;
   background-color: ##ffffff;
-  width: 30%;
-  height: 300vw;
+  width: 5vw;
+  height: 5vw;
 }
 
 /* Style the buttons that are used to open the tab content */
-.tab button {
+  .tab button {
   display: block;
-  visibility: visible;
-  background-color: #ffffff;
-  color: black;
-  padding: 22px 16px;
-  width: 100px;
+  background-color:#ffe6e6;
+  color: #ffe6e6;
+  width: 7vw;
+  height: 7vw;
   border: none;
   outline: none;
   text-align: center;
-  cursor: pointer;
+  cursor: help;
   position: absolute !important;
 }
 
 .tab button span {
   display: none;
-  width: 100px;
+  width: 90px;
 }
 
 .tab button.show span {
@@ -114,6 +113,52 @@ body {
 
 div {
   position: absolute;
-  top: 100px;
-  left: 100px;
+  top: 80px;
+  left: 80px;
 }
+
+
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
+.webring {
+  text-transform: lowercase;
+  z-index: -1;
+  bottom: 0;
+  font-family: "helvetica";
+  width: 100%;
+  color: rgba(255,200,190, 1);
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw;
+  text-align: center;
+  cursor: default;
+}
+
+.webring a {
+  color: white;
+  font-family: "helvetica";
+  border-bottom: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.webringarrow a {
+  color: rgba(255,200,190, 0.9);
+  border-bottom: 0;
+  text-align: center;
+  position: absolute
+  
+}
+
+.webringarrow, .webringinfo {
+  padding: 2vw;
+}
+
+

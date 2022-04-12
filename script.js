@@ -43,8 +43,8 @@ window.onload = function () {
     var randomLeft = getRandomNumber(0, winWidth);
 
     // update top and left position
-    thisDiv.style.top = randomTop + "px";
-    thisDiv.style.left = randomLeft + "px";
+    thisDiv.style.top = randomTop + "90px";
+    thisDiv.style.left = randomLeft + "90px";
   }
 };
 // function that returns a random number between a min and max
